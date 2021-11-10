@@ -28,7 +28,7 @@ function twoNumberSum(array, targetSum) {
 
 // If you value space
 // 0(n) time | 0(n) space
-// with hashtable
+// with hashtable ( stores sum of pairs in array)
 function twoNumberSum(array, targetSum) {
   const nums = {};
   for (const num of array) {

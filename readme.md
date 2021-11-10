@@ -26,9 +26,9 @@ https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 https://careerkarma.com/blog/javascript-for-loop/
 
 ```
-for (initialization; condition; increment) {
-	// Execute code
-}
+initialExpression]; [endingCondition]; [incrementalExpression]
+
+simple for loop’s repetitive statements will be executed until [endingCondition] returns false
 ```
 * Initialization: declare a counter variable. keeps track how many times loop has been executed.
 
