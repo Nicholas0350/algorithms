@@ -1,26 +1,32 @@
-// function that takes array of integers and sorts them in ascending order
+// function takes array of integers & sorts them in ascending order
 
-function selectionSort(arr) {
-    // loop through the array
-    for (let i = 0; i < arr.length; i++) {
-        // set the current index as the smallest value
-        let min = i;
-        // loop through the array again
-        for (let j = i + 1; j < arr.length; j++) {
-            // if the current value is smaller than the smallest
-            if (arr[j] < arr[min]) {
-                // set the current index as the smallest
-                min = j;
-            }
-        }
-        // if the smallest value is not the current index
-        if (min != i) {
-            // swap the values
-            let temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
-        }
+
+// time complexity: O(n^2)
+// space complexity: O(1)
+
+function selectionSort(array) {
+  // loop through the array
+  for (let i = 0; i < array.length; i++) {
+    // set the minimum value to the first index of the array
+    let min = array[i];
+    // set the minimum index to the current index
+    let minIndex = i;
+    // loop through the array again
+    for (let j = i + 1; j < array.length; j++) {
+      // if the current value is less than the current minimum value
+      if (array[j] < min) {
+        // set the minimum value to the current value
+        min = array[j];
+        // set the minimum index to the current index
+        minIndex = j;
+      }
     }
-    // return the sorted array
-    return arr;
+    // if the minimum index is not the current index
+    if (minIndex !== i) {
+      // swap the minimum value with the current value
+      [array[i], array[minIndex]] = [array[minIndex], array[i]];
+    }
+  }
+  // return the sorted array
+  return array;
 }
