@@ -49,6 +49,9 @@ simple for loop’s repetitive statements will be executed until [endingConditio
 
 * Increment updates loop counter each time loop executed.
 
+## FOR VS WHILE LOOP
+use for loop when you know how many times the loop should run. 
+use while loop when you want the loop to break based on a condition other than the number of times it runs
 
 # = vs == vs === 
 
