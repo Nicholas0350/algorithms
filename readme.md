@@ -1,3 +1,6 @@
+# Repo of essential algorithms to gain a deeper competency in problem solving algorithmically along with elementary javascript "things".
+
+
 https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 
 # VAR
