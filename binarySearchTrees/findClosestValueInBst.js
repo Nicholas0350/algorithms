@@ -1,4 +1,5 @@
-// function that takes a binary search tree and a target value and returns the closest value to the target.
+// function that takes a binary search tree and
+// a target value and returns the closest value to the target.
 
 
 //time complexity: O(log(n))

@@ -1,11 +1,11 @@
 // function taking a special array & returns its product sum
 // special array is a non empty array that contains either integers or other special arrays
 // empty arrays are considered to have a product of 1
-// the product sum of a special array is the sum of its elements 
+// the product sum of a special array is the sum of its elements
 // and multiplied by the product sum of all elements of any nested arrays
 
-// O(n) time complexity because we are iterating through the array once we have the sum of the array, 
-// we multiply it by the multiplier and return the sum of the array multiplied by the multiplier 
+// O(n) time complexity because we are iterating through the array once we have the sum of the array,
+// we multiply it by the multiplier and return the sum of the array multiplied by the multiplier
 // space complexity: O(n)
 
 

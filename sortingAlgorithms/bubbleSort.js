@@ -4,7 +4,7 @@
 function bubbleSort(arr) {
   // loop through the array
   for (let i = 0; i < arr.length; i++) {
-    // loop through the array again
+    // loop through the array again because ?
     for (let j = 0; j < arr.length; j++) {
       // if the current element is greater than the next element
       if (arr[j] > arr[j + 1]) {
