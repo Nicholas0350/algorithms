@@ -1,4 +1,4 @@
-https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+# Repo of essential algorithms to gain a deeper competency in problem solving algorithmically along with elementary javascript "things".
 
 # VAR
  * globally scoped(outside function) vs function/locally scoped(where can be used).
@@ -62,3 +62,9 @@ use while loop when you want the loop to break based on a condition other than t
 # in operator
 
 * an inbuilt operator used to check whether some property exists in an object or not.
+
+# CATCH THEN
+* Catch is if an error went wrong
+* Then is if a Promise went right
+* Finally happens regardless of Promisees outcomes 
+
